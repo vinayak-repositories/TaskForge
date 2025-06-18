@@ -1,6 +1,6 @@
 # 🧠 TaskForge
 
-**TaskForge** is a sleek, real-time collaborative Kanban board built using modern technologies like Next.js, Tailwind CSS, and Liveblocks. Designed for teams, freelancers, or individuals to manage projects intuitively and efficiently.
+**TaskForge** is a real-time collaborative Kanban board inspired by tools like Trello. It helps individuals and teams manage tasks with clarity and structure. Built using modern web technologies like Next.js and Liveblocks, TaskForge emphasizes collaboration and productivity in a clean desktop-first interface.
 
 <p align="center">
   <img src="public/screenshots/hero.png" alt="TaskForge Hero Screenshot" width="100%" />
@@ -10,13 +10,13 @@
 
 ## 🚀 Features
 
-- 📝 Create, edit, and delete tasks
+- 📝 Create, edit, and delete task cards
 - 🧲 Drag-and-drop cards across columns
 - 🧑‍🤝‍🧑 Real-time collaboration with Liveblocks
 - 🧵 Comment threads and discussions on tasks
-- 📎 Attachments & avatars (Google Auth enabled)
-- 🌙 Clean, responsive UI
-- 🔐 Secure authentication with NextAuth.js
+- 🔐 Google OAuth authentication via NextAuth
+- 📦 Persistent storage with MongoDB
+- 💻 Designed primarily for desktop usage
 
 ---
 
@@ -25,10 +25,10 @@
 | Technology     | Purpose                         |
 |----------------|----------------------------------|
 | [Next.js](https://nextjs.org/)        | React framework for SSR & routing |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling             |
-| [Liveblocks](https://liveblocks.io/)   | Real-time collaboration            |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework       |
+| [Liveblocks](https://liveblocks.io/)   | Real-time presence & collaboration |
 | [NextAuth.js](https://next-auth.js.org/) | Authentication (Google OAuth)     |
-| [MongoDB](https://mongodb.com/)       | Database for storing board data   |
+| [MongoDB](https://mongodb.com/)       | NoSQL database for storing boards |
 
 ---
 
@@ -38,19 +38,19 @@
 |----------|------------|------------|
 | ![Dashboard](public/screenshots/dashboard.png) | ![Board](public/screenshots/board.png) | ![Modal](public/screenshots/modal.png) |
 
-> ℹ️ Place your screenshots in the `public/screenshots/` directory.
+> 💡 Save your images in `public/screenshots/` and replace these placeholders.
 
 ---
 
 ## ⚙️ Installation
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/your-username/taskforge.git
 cd taskforge
 
 # Install dependencies
 npm install
 
-# Create environment variables
+# Copy and fill in your environment variables
 cp .env.example .env.local
