@@ -15,7 +15,7 @@
 - 🧑‍🤝‍🧑 Real-time collaboration with Liveblocks
 - 🧵 Comment threads and discussions on tasks
 - 📎 Attachments & avatars (Google Auth enabled)
-- 🌙 Clean, responsive UI (dark-mode compatible)
+- 🌙 Clean, responsive UI
 - 🔐 Secure authentication with NextAuth.js
 
 ---
