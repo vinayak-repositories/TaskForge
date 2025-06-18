@@ -36,6 +36,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-sortablejs": "^6.1.4",
+    "sharp": "^0.34.2",
     "sortablejs": "^1.15.1",
     "uniqid": "^5.4.0",
     "y-prosemirror": "^1.2.2",
