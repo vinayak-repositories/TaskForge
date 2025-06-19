@@ -59,28 +59,21 @@ Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, and **L
 
 ## 📸 Screenshots
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:center">Dashboard</th>
-      <th style="text-align:center">Board View</th>
-      <th style="text-align:center">Card Modal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <img src="public/screenshots/dashboard.png" height="250" style="margin-top:24px;" />
-      </td>
-      <td align="center">
-        <img src="public/screenshots/hero.png" height="250" style="margin-top:24px;" />
-      </td>
-      <td align="center">
-        <img src="public/screenshots/modal.png" height="250" style="margin-top:24px;" />
-      </td>
-    </tr>
-  </tbody>
-</table>
+### 🧭 Dashboard
+<p align="center">
+  <img src="public/screenshots/dashboard.png" alt="Dashboard Screenshot" width="600" />
+</p>
+
+### 🗂️ Board View
+<p align="center">
+  <img src="public/screenshots/hero.png" alt="Board View Screenshot" width="600" />
+</p>
+
+### 🪟 Card Modal
+<p align="center">
+  <img src="public/screenshots/modal.png" alt="Card Modal Screenshot" width="600" />
+</p>
+
 
 ---
 
@@ -99,3 +92,4 @@ cp .env.example .env
 
 # Start the development server
 npm run dev
+\
