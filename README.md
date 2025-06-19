@@ -61,7 +61,7 @@ Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, and **L
 
 ### 🧭 Dashboard
 <p align="center">
-  <img src="public/screenshots/dashboard.png" alt="Dashboard />
+  <img src="public/screenshots/dashboard.png" alt="Dashboard" />
 </p>
 
 ### 🗂️ Board View
