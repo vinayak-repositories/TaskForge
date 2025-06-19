@@ -92,4 +92,3 @@ cp .env.example .env
 
 # Start the development server
 npm run dev
-\
