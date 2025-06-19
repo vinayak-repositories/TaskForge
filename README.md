@@ -61,17 +61,17 @@ Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, and **L
 
 ### 🧭 Dashboard
 <p align="center">
-  <img src="public/screenshots/dashboard.png" alt="Dashboard Screenshot" width="600" />
+  <img src="public/screenshots/dashboard.png" alt="Dashboard />
 </p>
 
 ### 🗂️ Board View
 <p align="center">
-  <img src="public/screenshots/hero.png" alt="Board View Screenshot" width="600" />
+  <img src="public/screenshots/hero.png" alt="Board View Screenshot" />
 </p>
 
 ### 🪟 Card Modal
 <p align="center">
-  <img src="public/screenshots/modal.png" alt="Card Modal Screenshot" width="600" />
+  <img src="public/screenshots/modal.png" alt="Card Modal Screenshot" />
 </p>
 
 
