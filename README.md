@@ -1,6 +1,8 @@
 # 🧠 TaskForge
 
-**TaskForge** is a real-time collaborative Kanban board inspired by tools like Trello. It helps individuals and teams manage tasks with clarity and structure. Built using modern web technologies like Next.js and Liveblocks, TaskForge emphasizes collaboration and productivity in a clean desktop-first interface.
+**TaskForge** is a real-time, collaborative Kanban board application inspired by productivity tools like Trello and Notion. Designed to enhance team coordination and individual task management, TaskForge provides a sleek, intuitive interface that helps users organize work efficiently across customizable boards and columns.
+
+Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, and **Liveblocks**, TaskForge supports seamless multiplayer experiences — enabling users to see updates, comments, and task movements in real-time. Whether you're planning a project solo or working within a distributed team, TaskForge ensures your workflow stays structured, synchronized, and visually clean.
 
 <p align="center">
   <img src="public/screenshots/hero.png" alt="TaskForge Hero Screenshot" width="100%" />
@@ -10,35 +12,75 @@
 
 ## 🚀 Features
 
-- 📝 Create, edit, and delete task cards
-- 🧲 Drag-and-drop cards across columns
-- 🧑‍🤝‍🧑 Real-time collaboration with Liveblocks
-- 🧵 Comment threads and discussions on tasks
-- 🔐 Google OAuth authentication via NextAuth
-- 📦 Persistent storage with MongoDB
-- 💻 Designed primarily for desktop usage
+- 📝 Create, edit, and delete task cards  
+- 🧲 Drag-and-drop cards across columns  
+- 🧑‍🤝‍🧑 Real-time collaboration with Liveblocks  
+- 🧵 Comment threads and discussions on tasks  
+- 🔐 Google OAuth authentication via NextAuth  
+- 📦 Persistent storage with MongoDB  
+- 💻 Designed primarily for desktop usage  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology     | Purpose                         |
-|----------------|----------------------------------|
-| [Next.js](https://nextjs.org/)        | React framework for SSR & routing |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework       |
-| [Liveblocks](https://liveblocks.io/)   | Real-time presence & collaboration |
-| [NextAuth.js](https://next-auth.js.org/) | Authentication (Google OAuth)     |
-| [MongoDB](https://mongodb.com/)       | NoSQL database for storing boards |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Technology</th>
+      <th style="text-align:left; padding-left:24px;">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><a href="https://nextjs.org/">Next.js</a></td>
+      <td align="left" style="padding-left:24px;">React framework for SSR & routing</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://tailwindcss.com/">Tailwind CSS</a></td>
+      <td align="left" style="padding-left:24px;">Utility-first CSS framework</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://liveblocks.io/">Liveblocks</a></td>
+      <td align="left" style="padding-left:24px;">Real-time presence & collaboration</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://next-auth.js.org/">NextAuth.js</a></td>
+      <td align="left" style="padding-left:24px;">Authentication (Google OAuth)</td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://mongodb.com/">MongoDB</a></td>
+      <td align="left" style="padding-left:24px;">NoSQL database for storing users</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## 📸 Screenshots
 
-| Dashboard | Board View | Card Modal |
-|----------|------------|------------|
-| ![Dashboard](public/screenshots/dashboard.png) | ![Board](public/screenshots/board.png) | ![Modal](public/screenshots/modal.png) |
-
-> 💡 Save your images in `public/screenshots/` and replace these placeholders.
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Dashboard</th>
+      <th style="text-align:center">Board View</th>
+      <th style="text-align:center">Card Modal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="public/screenshots/dashboard.png" height="250" style="margin-top:24px;" />
+      </td>
+      <td align="center">
+        <img src="public/screenshots/hero.png" height="250" style="margin-top:24px;" />
+      </td>
+      <td align="center">
+        <img src="public/screenshots/modal.png" height="250" style="margin-top:24px;" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -46,11 +88,14 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/taskforge.git
-cd taskforge
+git clone https://github.com/Igneel0601/TaskForge.git
+cd TaskForge
 
 # Install dependencies
 npm install
 
-# Copy and fill in your environment variables
-cp .env.example .env.local
+# Copy environment variables
+cp .env.example .env
+
+# Start the development server
+npm run dev
