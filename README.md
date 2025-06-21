@@ -27,8 +27,8 @@ Built with cutting-edge technologies like **Next.js**, **Tailwind CSS**, and **L
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Technology</th>
-      <th style="text-align:left; padding-left:24px;">Purpose</th>
+      <th style="text-align:center">Technology</th>
+      <th style="text-align:center;">Purpose</th>
     </tr>
   </thead>
   <tbody>
